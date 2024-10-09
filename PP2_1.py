@@ -7,7 +7,7 @@
 
 def q1(): 
   #Write Assignment code here
-  num = int(input("Input: "))
+  num = int(input("In: "))
   if num % 2 == 0:
     print(f"{num} is even")
   else:
@@ -16,10 +16,11 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-  if input("Input: ") == "Kalisz":
+  if input("In: ") == "Kalisz":
     print("teacher")
   else:
     print("student")
+
 
 #Do not alter the following code
 #Comment out the following code when running your tests
